@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+.contact-section {
+    background: linear-gradient(135deg, #f0f9ff, #ffffff);
+}
+
+.custom-input {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-input:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.2);
+}
+
+.contact-section h2 {
+    color: #28a745;
+}
+
+.shadow-lg {
+    background-color: #ffffff !important;
+}
+
+@media (max-width: 767px) {
+    .contact-section .row {
+        flex-direction: column-reverse;
+    }
+}

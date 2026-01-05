@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+.about-us-section {
+    background: linear-gradient(135deg, #f0f9ff, #ffffff);
+}
+
+.about-us-section h2 {
+    color: #28a745;
+}
+
+.about-us-section h4 {
+    color: #333;
+}
+
+.about-us-section p {
+    color: #777;
+}
+
+.team-card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-card .card-body {
+    padding: 20px;
+}
+
+.team-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.team-card .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+@media (max-width: 767px) {
+    .about-us-section .row {
+        text-align: center;
+    }
+}

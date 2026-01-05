@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+  .product-card {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .product-image {
+            max-height: 400px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .price-tag {
+            font-size: 1.8rem;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .discount {
+            font-size: 1rem;
+            color: #dc3545;
+        }
+        .buy-button {
+            background-color: #ff6600;
+            border: none;
+            padding: 10px 25px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        .buy-button:hover {
+            background-color: #e65c00;
+        }
+        
+        
